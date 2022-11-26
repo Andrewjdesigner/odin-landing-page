@@ -33,6 +33,10 @@ p {
     line-height: 1.5;
 }
 
+figure {
+    margin: 0;
+}
+
 .header-logo {
     font-size: 24px;
     font-weight: 900;
@@ -93,4 +97,8 @@ p {
 
 .gallery-images {
     display: flex;
+}
+
+.gallery-images figure img {
+    max-width: 100%;
 }
