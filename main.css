@@ -21,7 +21,7 @@ h1 {
     top: -9999px;
 }
 
-h2 {
+.hero-section h2 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -85,4 +85,12 @@ p {
 .hero-right img {
     width: 100%;
     border-radius: 5px;
+}
+
+.gallery-section {
+    padding: 50px 200px;
+}
+
+.gallery-images {
+    display: flex;
 }
