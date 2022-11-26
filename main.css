@@ -11,6 +11,12 @@ header {
     padding: 10px 200px;
 }
 
+h1 {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
 .header-logo {
     font-size: 24px;
     font-weight: 900;
