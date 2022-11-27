@@ -19,6 +19,15 @@ header {
     padding: 10px 200px;
 }
 
+footer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 25px 200px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     position: absolute;
     left: -9999px;
