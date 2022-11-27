@@ -1,3 +1,7 @@
+/*****************/
+/* Global Styles */
+/*****************/
+
 * {
     box-sizing: border-box;
 }
@@ -29,15 +33,6 @@ h2 {
     color: #1F2937
 }
 
-.hero-section h2 {
-    font-size: 48px;
-    color: #F9FAF8;
-}
-
-.gallery-section h2 {
-    text-align: center;
-}
-
 p {
     line-height: 1.5;
 }
@@ -45,6 +40,10 @@ p {
 figure {
     margin: 0;
 }
+
+/******************/
+/* Header Section */
+/******************/
 
 .header-logo {
     font-size: 24px;
@@ -64,6 +63,10 @@ figure {
     text-decoration: none;
 }
 
+/****************/
+/* Hero Section */
+/****************/
+
 .hero-section {
     display: flex;
     padding: 100px 200px;
@@ -74,6 +77,11 @@ figure {
 
 .hero-section > div {
     width: 50%;
+}
+
+.hero-section h2 {
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 .hero-left {
@@ -100,8 +108,16 @@ figure {
     border-radius: 5px;
 }
 
+/*******************/
+/* Gallery Section */
+/*******************/
+
 .gallery-section {
     padding: 50px 200px;
+}
+
+.gallery-section h2 {
+    text-align: center;
 }
 
 .gallery-images {
